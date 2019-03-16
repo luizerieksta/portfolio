@@ -1,0 +1,287 @@
+
+/*projects page*/
+
+/*setting the default font size for the whole page*/
+body {
+	font-size: 16px;
+	background-color: rgb(248,248,248);
+}
+
+/*aligning all image boxes to the center of the page*/
+.images-container {
+	text-align: center;
+}
+
+/*the content of image boxes*/
+.image-box {
+	display: inline-block;
+	margin: 10px 20px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	width: 310px;
+	vertical-align: text-top;
+}
+
+/*positioning my image*/
+.about-me-image {
+
+	margin-left: 2%;
+
+}
+
+@media all and (max-width: 1074px) {
+  .about-me-image { display: block; margin-left: auto; margin-right: auto; margin-bottom: 6%;}
+}
+
+/*my name*/
+.name {
+	font-size: 3em;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	margin-top: -5%;
+
+}
+
+/*positioning the menu bar*/
+.menu-bar {
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+/*for project titles*/
+h3 {
+	font-size: 1.5em;
+}
+
+/*for project dates*/
+h4 {
+	font-size: 0.9em;
+	color: rgb(78, 82, 89);
+}
+
+/*for project descriptions*/
+p {
+	color: rgb(36, 38, 40);
+}
+
+/*extra information about projects*/
+#info-box-1, #info-box-2, #info-box-3, #info-box-4, #info-box-5, #info-box-6 {
+	display: none;
+
+	margin-top: 20px;
+	margin-left: 8px;
+	width: 300px;
+}
+
+/*read more buttons*/
+#click-here-1, #click-here-2, #click-here-3, #click-here-4, #click-here-5, #click-here-6 {
+	color: rgb(193, 9, 35);
+	cursor: pointer;
+}
+
+/* change opacity when hovering over project images*/
+.project-image:hover {
+  opacity: 0.3;
+}
+
+/*for links*/
+a {
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+/*the link from my name*/
+.link {
+	width: 320px;
+	color: black;
+}
+
+.link-grey {
+	width: 320px;
+	color: rgb(91,91,91);
+}
+
+.CV {
+	text-align: center;
+	margin-top: -30px;
+	font-size: 1.2em;
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+
+
+
+
+
+/*main page*/
+
+/*positioning the images*/
+.main-name {
+	width: 75%;
+	margin-top: 8%;
+	margin-left: 12%;
+	margin-right: 20%;
+}
+
+.description-image {
+	width: 30%;
+	margin-top: 40px;
+	margin-left: 56%;
+}
+
+.portfolio-image {
+	width: 12%;
+	margin-top: 10px;
+	margin-left: 74%;
+}
+
+/* change opacity when hovering over my name and portolio images*/
+.main-image:hover {
+  opacity: 0.75;
+}
+
+.portfolio:hover {
+  opacity: 0.75;
+}
+
+.no-background-color {
+	background-color: rgb(255,255,255);
+}
+
+
+
+
+/*about page*/
+
+/*aligning everything to the center*/
+.container {
+	text-align: center;
+}
+
+/*for my name*/
+.name-in-about-page {
+	font-size: 3em;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+
+/* change opacity when hovering over my image*/
+.my-image:hover {
+  opacity: 0.75;
+}
+
+/*for the description about me*/
+.about-me {
+	font-family: 'Julius Sans One', sans-serif;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 40px;
+}
+
+/*for social media icons*/
+.social-media-icons {
+	margin: 20px 5px;
+}
+
+
+
+
+/*ascetic nature page*/
+
+.name-of-the-project {
+	font-size: 3em;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+}
+
+.type-of-project {
+	font-size: 1.1em;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	margin-top: -30px;
+	color: grey;
+	margin-bottom: 70px;
+}
+
+
+.project-description {
+	font-family: 'Julius Sans One', sans-serif;
+	margin-left: 17.7%;
+	margin-right: 17.7%;
+	margin-top: 40px;
+	width: 900px;
+}
+
+.image-of-project {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 100%;*/
+	padding-top: 20px;
+
+}
+
+.more-description {
+	margin-top: 50px;
+}
+
+
+.video {
+	margin-top: -50px;
+	margin-bottom: -50px;
+	
+}
+
+.title {
+	font-size: 0.92em;
+}
+
+
+
+.navigation-links {
+	
+	margin-left: 78%;
+	display: inline-block;
+
+
+}
+
+.links {
+	font-family: 'Julius Sans One', sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+}
+
+.website {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: -20px;
+	margin-bottom: -10px;
+}
+
+.website-link-color {
+	color: rgb(120, 160, 146);
+}
+
+.website-link-color-latvia {
+	color: rgb(186, 163, 163);
+}
+
+.website-link-color-comic {
+	color: rgb(255,208,158);
+}
+
+.source-code {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 40px;
+}
+
+.source-code-link-color-latvia {
+	color: rgb(186, 163, 163);
+}
+
